@@ -214,6 +214,7 @@ body {
 .advantages {
     background: #222224;
     margin-top: 43px;
+<<<<<<< HEAD
     color: #FBFBFB;
 }
 
@@ -342,10 +343,20 @@ body {
 
 .subscribe-button:hover {
     background-color: #d35869;
+=======
+}
+
+.feedback {
+    background-image: url(/img/feedback_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 448px;
+>>>>>>> f510beb8946f96b3291f4a320f2e30d5e983f146
 }
 
 .footer {
     background: #222224;
+<<<<<<< HEAD
 }
 
 .footer-wrap {
@@ -367,4 +378,6 @@ body {
 
 .icon-img:hover .icon-symbol {
     fill: #FFFFFF;
+=======
+>>>>>>> f510beb8946f96b3291f4a320f2e30d5e983f146
 }
