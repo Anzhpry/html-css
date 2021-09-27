@@ -360,3 +360,11 @@ body {
     line-height: 19px;
     color: #FBFBFB;
 }
+
+.icon-img:hover .icon-background {
+    fill: #F16D7F;
+}
+
+.icon-img:hover .icon-symbol {
+    fill: #FFFFFF;
+}
