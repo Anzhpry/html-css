@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #222222;
+    padding: 18px 0;
+    color: #fff;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-col-1 {
+    display: flex;
+    align-items: center;
+}
+
+.logo-link {
+    text-decoration: none;
+    color: transparent;
+    margin-right: 41px;
+}
+
+.search-button, .main-menu-button {
+    background-color: transparent;
+    border: none;
+}
+
+.profile-link, .cart-link {
+    text-decoration: none;
+    color: transparent;
+}
+
+.profile-link {
+    margin: 0 33px;
+}
+
+.offer {
+    background: #F1E4E6;
+}
+
+.offer-wrap {
+    height: 765px;
+    background-image: url(../img/offer-img.png);
+    background-repeat: no-repeat;
+    background-position-x: -225px;
+    background-position-y: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.offer-title {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 40px;
+    color: #222222;
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+    margin-right: 95px;
+}
+
+.offer-title--small {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+}
+
+.offer-title--pink {
+    color: #F16D7F;
+}
+
+.categories {
+    padding-top: 65px;
+    padding-bottom: 85px;
+}
+
+.categories-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.categories-item {
+    background: #C4C4C4;
+    width: 360px;
+    height: 260px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.categories-item--women {
+    background-image: url(../img/women-categories.png);
+}
+
+.categories-item--men {
+    background-image: url(../img/men-categories.jpg);
+}
+
+.categories-item--kids {
+    background-image: url(../img/kids-categories.jpg);
+}
+
+.categories-item--acc {
+    margin-top: 30px;
+    width: 100%;
+    height: 180px;
+    background-image: url(../img/accesories-categories.jpg);
+}
+
+.categories-sale {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.categories-name {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+}
+
+.heading-feature-products {
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    text-align: center;
+    padding-bottom: 6px;
+}
+
+.text-heading-feature-products {
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+    text-align: center;
+    padding-bottom: 18px;
+}
+
+.products {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-card {
+    background: #F8F8F8;
+    width: 360px;
+    margin-top: 30px;
+}
+
+.heading-product-card {
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 25px;
+    padding-bottom: 12px;
+    margin-left: 16px;
+    margin-right: 28px;
+}
+
+.text-product-card {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    padding-bottom: 18px;
+    margin-left: 16px;
+    margin-right: 28px;
+}
+
+.price {
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    padding-bottom: 20px;
+    margin-left: 16px;
+    margin-right: 28px;
+}
+
+.center {
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.center-button {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    border: 1px solid #FF6A6A;
+    padding: 14px 39px 15px;
+}
+
+.advantages {
+    background: #222224;
+    margin-top: 43px;
+    color: #FBFBFB;
+}
+
+.advantages-wrap {
+    display: flex;
+    padding: 104px 0;
+    justify-content: space-between;
+}
+
+.advantage-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.heading-advantages {
+    font-size: 19.96px;
+    line-height: 24px;
+    padding-top: 19px;
+}
+
+.text-advantages {
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    padding-top: 16px;
+}
+
+.feedback {
+    background-image: url(../img/feedback-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 448px;
+    background-color: #eee;
+    background-position: bottom;
+}
+
+.feedback-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 97px;
+}
+
+.example-feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 360px;
+}
+
+.text-feedback {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+    margin-top: 30px;
+}
+
+.text-feedback-style {
+    font-style: italic;
+}
+
+.subscribe-form {
+    color: #222224;
+    line-height: 167.2%;
+    text-align: center;
+    padding-right: 97px;
+    padding-top: 58px;
+}
+
+.heading-top-subscribe {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.heading-mini-subscribe {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.subscribe {
+    width: 356px;
+    display: flex;
+    margin-top: 37px;
+}
+
+.subscribe-field {
+    padding: 20px;
+    width: 255px;
+    border-radius: 27px 0 0 27px;
+    border: 1px solid #E1E1E1;
+    background-color: #E1E1E1;
+    color: #222224;
+}
+
+.subscribe-field:focus {
+    outline: none;
+    border: 1px solid #F16D7F;
+}
+
+.subscribe-field::placeholder {
+    font-size: 14px;
+    line-height: 17px;
+    color: #222224;
+    opacity: 0.67;
+}
+
+.subscribe-field:hover {
+    background-color: #E9E9E9;
+}
+
+.subscribe-button {
+    padding: 20px;
+    border-radius: 0 27px 27px 0;
+    border: none;
+    background-color: #F16D7F;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.subscribe-button:hover {
+    background-color: #d35869;
+}
+
+.footer {
+    background: #222224;
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.copy {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+}
+
+.icon-img:hover .icon-background {
+    fill: #F16D7F;
+}
+
+.icon-img:hover .icon-symbol {
+    fill: #FFFFFF;
+}
