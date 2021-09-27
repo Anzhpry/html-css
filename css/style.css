@@ -214,6 +214,34 @@ body {
 .advantages {
     background: #222224;
     margin-top: 43px;
+    color: #FBFBFB;
+}
+
+.advantages-wrap {
+    display: flex;
+    padding: 104px 0;
+    justify-content: space-between;
+}
+
+.advantage-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.heading-advantages {
+    font-size: 19.96px;
+    line-height: 24px;
+    padding-top: 19px;
+}
+
+.text-advantages {
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    padding-top: 16px;
 }
 
 .feedback {
@@ -225,4 +253,17 @@ body {
 
 .footer {
     background: #222224;
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.copy {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
 }
