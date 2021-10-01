@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +15,7 @@ body {
   margin: 0 auto;
 }
 
+/* шапка*/
 .header {
   background: #222222;
   padding: 18px 0;
@@ -63,6 +65,7 @@ body {
   margin: 0 33px;
 }
 
+/* offer на главной*/
 .offer {
   background: #f1e4e6;
 }
@@ -150,6 +153,171 @@ body {
   color: #f16d7f;
 }
 
+/* shopping */
+/* shooping*/
+.shopping {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 96px;
+  padding-bottom: 128px;
+}
+
+.shopping-cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
+}
+
+.shopping-cart-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+          box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+  width: 652px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-right: 22px;
+}
+
+img.shopping-img {
+  width: 40%;
+}
+
+.card-info {
+  padding-left: 31px;
+}
+
+.heading-shopping-cart-card {
+  font-size: 24px;
+  line-height: 29px;
+  color: #222222;
+  padding-bottom: 42px;
+  margin-top: 22px;
+}
+
+.text-shopping-cart-card {
+  font-size: 22px;
+  line-height: 26px;
+  color: #575757;
+  padding-bottom: 6px;
+}
+
+.count-product {
+  margin-left: 24px;
+  border: 1px solid #eaeaea;
+  font-size: 18px;
+  line-height: 22px;
+  color: #656565;
+  width: 44px;
+  text-align: center;
+  outline: none;
+}
+
+.shopping-price {
+  color: #ef5b70;
+}
+
+.shopping-close {
+  margin-top: 28px;
+}
+
+.shopping-cart-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 32px;
+}
+
+.cart-btn {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  border: 1px solid #a4a4a4;
+  padding: 17px 40px;
+}
+
+.cart-btn:hover {
+  background: #f16d7f;
+  border: 1px solid #ff6a6a;
+  color: #ffffff;
+}
+
+.shipping-adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.shipping-heading {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+  padding-bottom: 20px;
+}
+
+.shipping-input {
+  padding: 13px 0 16px 17px;
+  width: 360px;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #222222;
+  border: 1px solid #a4a4a4;
+  margin-bottom: 20px;
+}
+
+.shipping-input::-webkit-input-placeholder {
+  color: #b1b1b1;
+}
+
+.shipping-input:-ms-input-placeholder {
+  color: #b1b1b1;
+}
+
+.shipping-input::-ms-input-placeholder {
+  color: #b1b1b1;
+}
+
+.shipping-input::placeholder {
+  color: #b1b1b1;
+}
+
+.shipping-input:focus {
+  outline: none;
+}
+
+.shipping-btn {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #4a4a4a;
+  border: 1px solid #a4a4a4;
+  padding: 10px 0 12px 15px;
+  width: 102px;
+}
+
+/* categories */
 .categories {
   padding-top: 65px;
   padding-bottom: 85px;
