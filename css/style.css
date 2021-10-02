@@ -317,6 +317,50 @@ img.shopping-img {
   width: 102px;
 }
 
+.shipping-total-price {
+  background: #f5f3f3;
+  margin-top: 57px;
+  padding: 39px 44px 42px;
+  text-align: right;
+}
+
+.shipping-sub {
+  font-size: 11px;
+  line-height: 13px;
+  color: #4a4a4a;
+}
+
+.shipping-total {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+  margin-top: 12px;
+}
+
+.total-price {
+  font-size: 16px;
+  line-height: 19px;
+  color: #f16d7f;
+}
+
+.line-shipping {
+  background: #e2e2e2;
+  margin-top: 21px;
+  margin-bottom: 17px;
+}
+
+.shipping-checkout {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  background: #f16d7f;
+  padding: 12px 42px;
+  display: block;
+}
+
 /* categories */
 .categories {
   padding-top: 65px;
