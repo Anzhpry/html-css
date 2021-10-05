@@ -65,6 +65,14 @@ body {
   margin: 0 33px;
 }
 
+.header-svg {
+  fill: #e8e8e8;
+}
+
+.header-svg:hover {
+  fill: #f16d7f;
+}
+
 /* offer на главной*/
 .offer {
   background: #f1e4e6;
@@ -148,6 +156,10 @@ body {
   color: #636363;
 }
 
+.breadcrumb-text:hover {
+  color: #f16d7f;
+}
+
 .active {
   font-weight: bold;
   color: #f16d7f;
@@ -197,12 +209,20 @@ img.shopping-img {
   padding-left: 31px;
 }
 
+.cart-product-link {
+  text-decoration: none;
+}
+
 .heading-shopping-cart-card {
   font-size: 24px;
   line-height: 29px;
   color: #222222;
   padding-bottom: 42px;
   margin-top: 22px;
+}
+
+.heading-shopping-cart-card:hover {
+  color: #f16d7f;
 }
 
 .text-shopping-cart-card {

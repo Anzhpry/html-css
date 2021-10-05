@@ -3,6 +3,8 @@
     line-height: 17px;
 }
 
+$color-hover: #f16d7f;
+
 * {
     margin: 0;
     padding: 0;
@@ -57,6 +59,13 @@ body {
 
 .profile-link {
     margin: 0 33px;
+}
+
+.header-svg {
+    fill: #e8e8e8;
+    &:hover {
+        fill: $color-hover;
+    }
 }
 
 /* offer на главной*/
@@ -127,6 +136,9 @@ body {
     font-weight: 300;
     @include main-text();
     color: #636363;
+    &:hover {
+        color: #f16d7f;
+    }
 }
 
 .active {
