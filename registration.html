@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main page</title>
+    <title>Registration</title>
     <link rel="icon" type="image/svg" href="img/logo.svg">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,123 +23,66 @@
             </div>
             <div class="header-col-2">
                 <button class="main-menu-button"><img src="img/burger.svg" alt="menu"></button>
-                <a href="registration.html" class="profile-link"><img src="img/profile.svg" alt="profile"></a>
+                <a href="#" class="profile-link"><img src="img/profile.svg" alt="profile"></a>
                 <a href="cart.html" class="cart-link"><img src="img/basket.svg" alt="cart"></a>
             </div>
         </div>
     </header>
 
-    <section class="offer">
-        <div class="wrapper offer-wrap">
-            <h1 class="offer-title">
-                THE BRAND <br>
-                <span class="offer-title--small">OF LUXERIOUS <span class="offer-title--pink">FASHION</span></span>
-            </h1>
-        </div>
+    <section class="page-title">
+        <nav class="wrapper page-title-wrap">
+            <h2 class="page-title-wrap-heading">REGISTRATION</h2>
+        </nav>
     </section>
 
-    <section class="categories">
-        <div class="wrapper categories-wrap">
+    <section class="wrapper registration">
 
-            <div class="categories-item categories-item--women">
-                <p class="categories-sale">30% OFF</p>
-                <p class="categories-name">FOR WOMEN</p>
-            </div>
-            <div class="categories-item categories-item--men">
-                <p class="categories-sale">HOT DEAL</p>
-                <p class="categories-name">FOR MEN</p>
-            </div>
-            <div class="categories-item categories-item--kids">
-                <p class="categories-sale"> NEW ARRIVALS</p>
-                <p class="categories-name">FOR KIDS</p>
-            </div>
-            <div class="categories-item categories-item--acc">
-                <p class="categories-sale">LUXIROUS & TRENDY</p>
-                <p class="categories-name"> ACCESORIES</p>
-            </div>
-        </div>
-    </section>
+        <form action="#">
+            <fieldset class="registration-field">
+                <legend class="registration-heading">Your Name</legend>
+                <input type="text" class="registration-input" placeholder="First Name">
+                <input type="text" class="registration-input" placeholder="Last Name">
+                <label class="radio-input"><input class="box-radio-input" type="radio" name="gender"
+                        value="m">Male</label>
+                <label class="radio-input"><input class="box-radio-input" type="radio" name="gender"
+                        value="w">Female</label>
+            </fieldset>
+            <fieldset class="registration-field registration-field-login">
+                <legend class="registration-heading">Login details</legend>
+                <input type="email" class="registration-input" placeholder="Email">
+                <input type="password" class="registration-input" placeholder="Password">
+            </fieldset>
+            <p class="registration-text">Please use 8 or more characters, with at least 1 number and a mixture of
+                uppercase and lowercase letters
+            </p>
+            <button type="submit" class="registration-btn">JOIN NOW
+                <svg class="registration-svg-btn" width="17" height="10" viewBox="0 0 17 10" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M11.54 0.208095C11.6058 0.142131 11.684 0.0897967 11.77 0.0540883C11.8561 0.01838 11.9483 0 12.0415 0C12.1347 0 12.2269 0.01838 12.313 0.0540883C12.399 0.0897967 12.4772 0.142131 12.543 0.208095L16.7929 4.458C16.8589 4.5238 16.9112 4.60196 16.9469 4.68802C16.9826 4.77407 17.001 4.86632 17.001 4.95949C17.001 5.05266 16.9826 5.14491 16.9469 5.23097C16.9112 5.31702 16.8589 5.39518 16.7929 5.46098L12.543 9.71089C12.41 9.84389 12.2296 9.91861 12.0415 9.91861C11.8534 9.91861 11.673 9.84389 11.54 9.71089C11.407 9.57788 11.3323 9.39749 11.3323 9.2094C11.3323 9.0213 11.407 8.84091 11.54 8.70791L15.2898 4.95949L11.54 1.21107C11.474 1.14528 11.4217 1.06711 11.386 0.981059C11.3503 0.895005 11.3319 0.802752 11.3319 0.709584C11.3319 0.616415 11.3503 0.524162 11.386 0.438109C11.4217 0.352055 11.474 0.273891 11.54 0.208095Z"
+                        fill="white" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M0 4.95948C0 4.77162 0.0746263 4.59146 0.207462 4.45862C0.340297 4.32579 0.52046 4.25116 0.708318 4.25116H15.583C15.7708 4.25116 15.951 4.32579 16.0838 4.45862C16.2167 4.59146 16.2913 4.77162 16.2913 4.95948C16.2913 5.14734 16.2167 5.3275 16.0838 5.46033C15.951 5.59317 15.7708 5.6678 15.583 5.6678H0.708318C0.52046 5.6678 0.340297 5.59317 0.207462 5.46033C0.0746263 5.3275 0 5.14734 0 4.95948Z"
+                        fill="white" />
+                </svg>
+            </button>
+        </form>
 
-    <section class="feature-products">
-        <div class="wrapper feature-products-wrap">
-            <h2 class="heading-feature-products">Fetured Items</h2>
-            <p class="text-heading-feature-products">Shop for items based on what we featured in this week</p>
-            <ul class="products">
-                <li class="product-card"><img src="img/product-1.png" alt="product-1">
-                    <h3 class="heading-product-card">ELLERY X M'O CAPSULE</h3>
-                    <p class="text-product-card">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter of cool Kym Ellery
-                        teams up with Moda Operandi.</p>
-                    <p class="price">$52.00</p>
+        <div class="registration-loyalty">
+            <h3 class="heading-loyalty">LOYALTY HAS ITS PERKS</h3>
+            <p class="loyalty-text">Get in on the loyalty program where you can earn points and unlock serious perks.
+                Starting with these as
+                soon as you join:</p>
+            <ul class="loyalty-list">
+                <li class="loyalty-item">15% off welcome offer
                 </li>
-                <li class="product-card">
-                    <img src="img/product-2.png" alt="product-2">
-                    <h3 class="heading-product-card">ELLERY X M'O CAPSULE</h3>
-                    <p class="text-product-card">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter of cool Kym Ellery
-                        teams up with Moda Operandi.</p>
-                    <p class="price">$52.00</p>
+                <li class="loyalty-item">Free shipping, returns and exchanges on all orders
                 </li>
-                <li class="product-card">
-                    <img src="img/product-3.png" alt="product-3">
-                    <h3 class="heading-product-card">ELLERY X M'O CAPSULE</h3>
-                    <p class="text-product-card">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter of cool Kym Ellery
-                        teams up with Moda Operandi.</p>
-                    <p class="price">$52.00</p>
+                <li class="loyalty-item">$10 off a purchase on your birthday
                 </li>
-                <li class="product-card">
-                    <img src="img/product-4.png" alt="product-4">
-                    <h3 class="heading-product-card">ELLERY X M'O CAPSULE</h3>
-                    <p class="text-product-card">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter of cool Kym Ellery
-                        teams up with Moda Operandi.</p>
-                    <p class="price">$52.00</p>
-                </li>
-                <li class="product-card">
-                    <img src="img/product-5.png" alt="product-5">
-                    <h3 class="heading-product-card">ELLERY X M'O CAPSULE</h3>
-                    <p class="text-product-card">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter of cool Kym Ellery
-                        teams up with Moda Operandi.</p>
-                    <p class="price">$52.00</p>
-                </li>
-                <li class="product-card">
-                    <img src="img/product-6.png" alt="product-6">
-                    <h3 class="heading-product-card">ELLERY X M'O CAPSULE</h3>
-                    <p class="text-product-card">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter of cool Kym Ellery
-                        teams up with Moda Operandi.</p>
-                    <p class="price">$52.00</p>
-                </li>
+                <li class="loyalty-item">Early access to products</li>
+                <li class="loyalty-item">Exclusive offers & rewards</li>
             </ul>
-            <div class="center"><a href="catalog.html" class="center-button">
-                    Browse All Product
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <section class="advantages">
-        <div class="wrapper advantages-wrap">
-            <div class="advantage-card">
-                <img src="img/delivery.svg" alt="">
-                <h2 class="heading-advantages">Free Delivery</h2>
-                <p class="text-advantages">Worldwide delivery on all. Authorit tively morph next-generation innov tion
-                    with extensive models.</p>
-            </div>
-            <div class="advantage-card">
-                <img src="img/discounts.svg" alt="">
-                <h2 class="heading-advantages">Sales & discounts</h2>
-                <p class="text-advantages">Worldwide delivery on all. Authorit tively morph next-generation innov tion
-                    with extensive models.</p>
-            </div>
-            <div class="advantage-card">
-                <img src="img/quality.svg" alt="">
-                <h2 class="heading-advantages">Quality assurance</h2>
-                <p class="text-advantages">Worldwide delivery on all. Authorit tively morph next-generation innov tion
-                    with extensive models.</p>
-            </div>
         </div>
     </section>
 
@@ -159,7 +102,6 @@
                 <form action="#" class="subscribe">
                     <input type="email" class="subscribe-field" placeholder="Enter Your Email">
                     <input type="submit" class="subscribe-button" value="Subscribe">
-
                 </form>
             </div>
         </div>
@@ -193,7 +135,6 @@
                             </clipPath>
                         </defs>
                     </svg>
-
                 </a>
                 <a class="footer-icon" href="#">
                     <svg class="icon-img" width="32" height="32" viewBox="0 0 32 32" fill="none"
@@ -210,7 +151,6 @@
                             </clipPath>
                         </defs>
                     </svg>
-
                 </a>
                 <a class="footer-icon" href="#">
                     <svg class="icon-img" width="32" height="32" viewBox="0 0 32 32" fill="none"
