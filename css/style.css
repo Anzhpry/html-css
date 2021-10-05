@@ -109,6 +109,7 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*page-title*/
 .page-title {
   background: #f8f3f4;
@@ -1550,6 +1551,47 @@ img.shopping-img {
 /* categories */
 >>>>>>> Stashed changes
 >>>>>>> lesson-5
+||||||| ec69a58
+=======
+/*page-title*/
+
+.page-title {
+    background: #F8F3F4;
+}
+
+.page-title-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 59px;
+    padding-bottom: 60px;
+    align-items: center;
+}
+
+.page-title-wrap-heading {
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+}
+
+.breadcrumb {
+    list-style: none;
+    display: flex;
+}
+
+.breadcrumb-text {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+}
+
+.active {
+    font-weight: bold;
+    color: #F16D7F;
+}
+
+>>>>>>> main
 .categories {
   padding-top: 65px;
   padding-bottom: 85px;
@@ -1661,13 +1703,62 @@ img.shopping-img {
   padding-left: 28px;
 }
 
+.filter {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 51px;
+    padding-bottom: 34px;
+}
+
+.filter-menu {
+    display: flex;
+    align-items: center;
+}
+
+.filter-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding-right: 11px;
+}
+
+.filter-sort {
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+}
+
+.filter-sort-text {
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    padding-right: 10px;
+    padding-left: 28px;
+}
+
 .heading-feature-products {
+<<<<<<< HEAD
   font-size: 30px;
   line-height: 36px;
   color: #222222;
   text-align: center;
   padding-bottom: 6px;
   padding-right: 11px;
+||||||| ec69a58
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    text-align: center;
+    padding-bottom: 6px;
+=======
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    text-align: center;
+    padding-bottom: 6px;
+    padding-right: 11px;
+>>>>>>> main
 }
 
 .text-heading-feature-products {
@@ -1768,10 +1859,45 @@ img.shopping-img {
   color: #c4c4c4;
 }
 
+/*pagination*/
+
+.pagination-box {
+    border: 1px solid #EBEBEB;
+    padding: 12px 15px;
+}
+
+.pagination-list {
+    display: flex;
+    gap: 15px;
+}
+
+.pagination {
+    list-style: none;
+}
+
+.pagination-link {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #C4C4C4;
+}
+
 .advantages {
+<<<<<<< HEAD
   background: #222224;
   margin-top: 95px;
   color: #fbfbfb;
+||||||| ec69a58
+    background: #222224;
+    margin-top: 43px;
+<<<<<<< HEAD
+    color: #FBFBFB;
+=======
+    background: #222224;
+    margin-top: 95px;
+    color: #FBFBFB;
+>>>>>>> main
 }
 
 .advantages-wrap {
@@ -1949,18 +2075,45 @@ img.shopping-img {
 }
 
 .subscribe-button:hover {
+<<<<<<< HEAD
   background-color: #d35869;
+||||||| ec69a58
+    background-color: #d35869;
+=======
+=======
+    background-color: #d35869;
+>>>>>>> main
 }
 
 .feedback {
+<<<<<<< HEAD
   background-image: url(/img/feedback_background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 448px;
+||||||| ec69a58
+    background-image: url(/img/feedback_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 448px;
+>>>>>>> f510beb8946f96b3291f4a320f2e30d5e983f146
+=======
+    background-image: url(/img/feedback_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 448px;
+>>>>>>> main
 }
 
 .footer {
+<<<<<<< HEAD
   background: #222224;
+||||||| ec69a58
+    background: #222224;
+<<<<<<< HEAD
+=======
+    background: #222224;
+>>>>>>> main
 }
 
 .footer-wrap {
@@ -1986,11 +2139,25 @@ img.shopping-img {
   text-decoration: none;
 }
 
+.footer-icon {
+    text-decoration: none;
+}
+
 .icon-img:hover .icon-background {
   fill: #f16d7f;
 }
 
 .icon-img:hover .icon-symbol {
+<<<<<<< HEAD
   fill: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
+||||||| ec69a58
+    fill: #FFFFFF;
+=======
+>>>>>>> f510beb8946f96b3291f4a320f2e30d5e983f146
+}
+=======
+    fill: #FFFFFF;
+}
+>>>>>>> main
