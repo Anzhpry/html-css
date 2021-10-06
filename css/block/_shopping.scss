@@ -84,11 +84,13 @@ img.shopping-img {
     color: #000000;
     border: 1px solid #a4a4a4;
     padding: 17px 40px;
-
+    display: block;
+    transition: 0.3s;
     &:hover {
         background: #f16d7f;
         border: 1px solid #ff6a6a;
         color: #ffffff;
+        transform: rotateY(360deg);
     }
 }
 

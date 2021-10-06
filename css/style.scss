@@ -213,16 +213,43 @@ body {
     color: #f16d7f;
 }
 
+/* filter */
+
 .filter {
     display: flex;
-    justify-content: flex-start;
-    padding-top: 51px;
+    margin-top: 51px;
     padding-bottom: 34px;
+    position: relative;
+    justify-content: center;
+}
+
+details::-webkit-details-marker {
+    display: none;
 }
 
 .filter-menu {
     display: flex;
     align-items: center;
+    position: absolute;
+    left: 0;
+}
+
+.filter-dropdown {
+    padding-left: 14px;
+}
+
+.filter-dropdown[open] {
+    width: 360px;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    padding: 17px;
+    background: #ffffff;
+}
+
+.filter-dropdown[open] .filter-text {
+    color: #ef5b70;
+    .filter-svg {
+        fill: #ef5b70;
+    }
 }
 
 .filter-text {
@@ -230,12 +257,74 @@ body {
     @include main-text();
     color: #000000;
     padding-right: 11px;
+    display: block;
+}
+
+.filter-svg {
+    fill: #000000;
+    margin-left: 11px;
+}
+
+.filter-text:hover {
+    color: $color-hover;
+    .filter-svg {
+        fill: $color-hover;
+    }
+}
+
+.filter-sub-category {
+    display: block;
+    color: #6f6e6e;
+    @include main-text();
+    border-left: 5px solid #ef5b70;
+    border-bottom: 1px solid #ebebeb;
+    padding: 8px 15px 12px 11px;
+    margin-top: 18px;
+    text-transform: uppercase;
+}
+
+.filter-link {
+    text-decoration: none;
+    @include main-text();
+    color: #6f6e6e;
+}
+
+.filter-item {
+    margin-top: 11px;
+    list-style: none;
+    margin-left: 15px;
 }
 
 .filter-sort {
     display: flex;
     align-items: center;
-    margin-left: 300px;
+}
+
+.filter-soft-box[open] {
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+}
+
+.filter-sort-text {
+    display: block;
+}
+
+.filter-soft-svg {
+    margin-left: 10px;
+}
+
+.size-soft {
+    position: absolute;
+}
+
+.size-list {
+    list-style: none;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6f6e6e;
+}
+
+.size-check {
+    margin-right: 9px;
 }
 
 .filter-sort-text {
@@ -314,6 +403,12 @@ body {
     color: #f26376;
     border: 1px solid #ff6a6a;
     padding: 14px 39px 15px;
+    transition: 0.3s;
+    &:hover {
+        color: #ffffff;
+        background: #f16d7f;
+        transform: scale(1.2);
+    }
 }
 
 /*pagination*/
@@ -338,7 +433,12 @@ body {
     font-size: 16px;
     line-height: 19px;
     color: #c4c4c4;
+    &:hover {
+        color: #ef5b70;
+    }
 }
+
+/* advantages */
 
 .advantages {
     background: #222224;
