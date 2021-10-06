@@ -812,18 +812,18 @@ details::-webkit-details-marker {
   margin-left: 15px;
 }
 
-.filter-sort {
+.filter-soft {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 17px;
 }
 
-.filter-soft-box[open] {
-  -webkit-box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
-          box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+.filter-soft-box {
+  position: relative;
 }
 
 .filter-sort-text {
@@ -836,6 +836,14 @@ details::-webkit-details-marker {
 
 .size-soft {
   position: absolute;
+  right: 0;
+  display: block;
+  background: #ffffff;
+  -webkit-box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+          box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  margin-top: 5px;
+  width: 79px;
+  padding-bottom: 11px;
 }
 
 .size-list {
@@ -843,6 +851,16 @@ details::-webkit-details-marker {
   font-size: 14px;
   line-height: 16px;
   color: #6f6e6e;
+  margin-top: 6px;
+  margin-left: 9px;
+}
+
+.soft-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
 }
 
 .size-check {
