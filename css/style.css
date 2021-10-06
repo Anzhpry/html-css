@@ -270,8 +270,8 @@ img.shopping-img {
   border: 1px solid #a4a4a4;
   padding: 17px 40px;
   display: block;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .cart-btn:hover {
@@ -301,7 +301,7 @@ img.shopping-img {
 }
 
 .shipping-input {
-  padding: 13px 0 16px 17px;
+  padding: 13px 17px 16px 17px;
   width: 360px;
   font-weight: 300;
   font-size: 13px;
@@ -340,6 +340,12 @@ img.shopping-img {
   border: 1px solid #a4a4a4;
   padding: 10px 0 12px 15px;
   width: 102px;
+}
+
+.shipping-btn:hover {
+  background: #f16d7f;
+  border: 1px solid #ff6a6a;
+  color: #ffffff;
 }
 
 .shipping-total-price {
@@ -416,7 +422,7 @@ img.shopping-img {
   display: -ms-flexbox;
   display: flex;
   margin-top: 20px;
-  padding: 13px 0 16px 17px;
+  padding: 13px 17px 16px 17px;
   width: 360px;
   border: 1px solid #a4a4a4;
   color: #222224;
