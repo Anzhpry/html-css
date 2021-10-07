@@ -414,6 +414,7 @@ details::-webkit-details-marker {
 }
 
 .card-btn {
+    text-decoration: none;
     border: 1px solid #ffffff;
     padding: 12px 14px;
     background-color: transparent;
@@ -447,6 +448,11 @@ details::-webkit-details-marker {
 .product-card:hover .card-overlay {
     display: flex;
     opacity: 1;
+}
+
+.heading-link {
+    text-decoration: none;
+    color: #000000;
 }
 
 .heading-product-card {
