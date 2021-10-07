@@ -232,16 +232,17 @@ details::-webkit-details-marker {
     align-items: center;
     position: absolute;
     left: 0;
+    z-index: 1;
 }
 
 .filter-dropdown {
     padding-left: 14px;
+    padding: 17px;
 }
 
 .filter-dropdown[open] {
     width: 360px;
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
-    padding: 17px;
     background: #ffffff;
 }
 
@@ -303,6 +304,23 @@ details::-webkit-details-marker {
 
 .filter-soft-box {
     position: relative;
+    &:hover .filter-sort-text {
+        color: $color-hover;
+    }
+    &:hover .filter-soft-svg {
+        fill: $color-hover;
+    }
+}
+
+.filter-soft-box[open] .filter-sort-text {
+    color: $color-hover;
+    .filter-soft-svg {
+        fill: $color-hover;
+    }
+}
+
+.filter-soft-box[open] .filter-soft-svg {
+    transform: rotate(180deg);
 }
 
 .filter-sort-text {
@@ -311,11 +329,13 @@ details::-webkit-details-marker {
 
 .filter-soft-svg {
     margin-left: 10px;
+    fill: #6f6e6e;
 }
 
 .size-soft {
     position: absolute;
     right: 0;
+    z-index: 1;
     display: block;
     background: #ffffff;
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
@@ -349,6 +369,8 @@ details::-webkit-details-marker {
     padding-left: 28px;
 }
 
+/* pruduct */
+
 .heading-feature-products {
     font-size: 30px;
     line-height: 36px;
@@ -376,6 +398,55 @@ details::-webkit-details-marker {
     background: #f8f8f8;
     width: 360px;
     margin-top: 30px;
+    position: relative;
+}
+
+.card-overlay {
+    background: rgba(58, 56, 56, 0.86);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 420px;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-btn {
+    border: 1px solid #ffffff;
+    padding: 12px 14px;
+    background-color: transparent;
+    align-items: center;
+    display: flex;
+    transition: 0.4s;
+    &:hover {
+        background-color: #ffffff73;
+        transform: scale(1.1);
+    }
+    &:hover .overlay-text {
+        color: rgba(58, 56, 56, 0.86);
+    }
+    &:hover .card-overlay-svg {
+        fill: rgba(58, 56, 56, 0.86);
+    }
+}
+
+.card-overlay-svg {
+    fill: #ffffff;
+    margin-right: 11px;
+    width: 26px;
+    height: 23px;
+}
+
+.overlay-text {
+    color: #ffffff;
+    @include main-text();
+}
+
+.product-card:hover .card-overlay {
+    display: flex;
+    opacity: 1;
 }
 
 .heading-product-card {
@@ -385,6 +456,9 @@ details::-webkit-details-marker {
     padding-bottom: 12px;
     margin-left: 16px;
     margin-right: 28px;
+    &:hover {
+        color: $color-hover;
+    }
 }
 
 .text-product-card {
@@ -450,6 +524,20 @@ details::-webkit-details-marker {
     color: #c4c4c4;
     &:hover {
         color: #ef5b70;
+    }
+}
+
+.pagination-link-point {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #c4c4c4;
+}
+
+.pagination-svg {
+    fill: black;
+    &:hover {
+        fill: $color-hover;
     }
 }
 

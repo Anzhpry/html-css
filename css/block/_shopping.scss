@@ -120,6 +120,7 @@ img.shopping-img {
         color: #b1b1b1;
     }
     &:focus {
+        border-color: black;
         outline: none;
     }
 }
