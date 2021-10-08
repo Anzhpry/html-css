@@ -20,6 +20,7 @@ body {
   background: #222222;
   padding: 18px 0;
   color: #fff;
+  position: relative;
 }
 
 .header-wrap {
@@ -71,6 +72,74 @@ body {
 
 .header-svg:hover {
   fill: #f16d7f;
+}
+
+/* main */
+/* main-menu*/
+.main-menu {
+  background-color: white;
+  width: 235px;
+  -webkit-box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+          box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  padding: 40px 36px;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  min-height: 764px;
+}
+
+.main-menu-open {
+  display: block;
+}
+
+.main-menu-box {
+  position: relative;
+}
+
+.main-menu-close {
+  display: none;
+}
+
+.main-menu-close-btn {
+  position: absolute;
+  padding: 10px;
+  top: -27px;
+  right: -25px;
+}
+
+.main-menu-title {
+  font-weight: bold;
+  color: #000000;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 25px;
+}
+
+.main-menu-link {
+  text-decoration: none;
+  color: #f16d7f;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+
+.main-menu-item {
+  margin-bottom: 15px;
+}
+
+.main-menu-submenu {
+  padding-left: 20px;
+}
+
+.main-submenu-link {
+  text-decoration: none;
+  color: #6f6e6e;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.main-menu-submenu-item {
+  margin-top: 11px;
 }
 
 /* offer на главной*/

@@ -26,6 +26,7 @@ body {
     background: #222222;
     padding: 18px 0;
     color: #fff;
+    position: relative;
 }
 
 .header-wrap {
@@ -67,6 +68,10 @@ body {
         fill: $color-hover;
     }
 }
+
+/* main */
+
+@import "block/main-menu";
 
 /* offer на главной*/
 
