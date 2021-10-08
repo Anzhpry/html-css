@@ -1,3 +1,117 @@
+<<<<<<< HEAD
+/* registration */
+
+.registration {
+    display: flex;
+    margin-top: 64px;
+    padding-bottom: 96px;
+}
+
+.registration-field {
+    border: none;
+    &-login {
+        margin-top: 33px;
+    }
+}
+
+.registration-heading {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.registration-input {
+    display: flex;
+    margin-top: 20px;
+    padding: 13px 17px 16px 17px;
+    width: 360px;
+    border: 1px solid #a4a4a4;
+    color: #222224;
+    font-size: 13px;
+    line-height: 16px;
+    &::placeholder {
+        font-weight: 300;
+        color: #b1b1b1;
+    }
+    &:focus {
+        outline: none;
+        border: 1px solid;
+    }
+}
+
+.radio-input {
+    margin-top: 31px;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box-radio-input {
+    margin-right: 10px;
+    transform: scale(1.4);
+    vertical-align: sub;
+}
+
+.registration-text {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #b1b1b1;
+    margin-top: 15px;
+    width: 360px;
+}
+
+.registration-btn {
+    background: #f16d7f;
+    border: none;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    padding: 16px 20px 17px 29px;
+    margin-top: 39px;
+}
+
+.registration-svg-btn {
+    margin-left: 20px;
+}
+
+.registration-loyalty {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-left: 128px;
+}
+
+.heading-loyalty {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.loyalty-list {
+    margin-top: 21px;
+    list-style: none;
+}
+
+.loyalty-text {
+    margin-top: 21px;
+}
+
+.loyalty-item {
+    padding-bottom: 16px;
+    &::before {
+        content: url(/img/check.svg);
+        margin-right: 22px;
+    }
+}
+||||||| 893aaad
+=======
 /* registration */
 
 .registration {
@@ -109,3 +223,4 @@
         margin-right: 22px;
     }
 }
+>>>>>>> main
