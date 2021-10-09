@@ -32,6 +32,15 @@
     padding: 10px;
     top: -27px;
     right: -25px;
+    border: none;
+    background: none;
+}
+
+.main-menu-close-svg {
+    fill: #6f6e6e;
+    &:hover {
+        fill: #f16d7f;
+    }
 }
 
 .main-menu-title {
