@@ -26,8 +26,13 @@ body {
     }
 }
 
-/* шапка*/
+@media (max-width: 760px) {
+    .wrapper {
+        width: 359px;
+    }
+}
 
+/* шапка*/
 .header {
     background: #222222;
     padding: 18px 0;
@@ -72,6 +77,16 @@ body {
     fill: #e8e8e8;
     &:hover {
         fill: $color-hover;
+    }
+}
+
+@media (max-width: 760px) {
+    .profile-link {
+        display: none;
+    }
+
+    .cart-link {
+        display: none;
     }
 }
 
@@ -126,8 +141,33 @@ body {
 
     .offer-title {
         font-size: 44px;
-        line-height: 53px;
-        margin-right: 15px;
+        line-height: 29px;
+        padding-top: 12px;
+        padding-bottom: 8px;
+        margin-right: 0;
+    }
+
+    .offer-title--small {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 760px) {
+    .offer-wrap {
+        background-image: none;
+        justify-content: center;
+    }
+
+    .offer-title {
+        font-size: 38px;
+        line-height: 24px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+
+    .offer-title--small {
+        font-size: 20px;
+        line-height: 1px;
     }
 }
 
@@ -259,6 +299,28 @@ body {
 
     .categories-item--women {
         background-position: center center;
+    }
+}
+
+@media (max-width: 760px) {
+    .categories {
+        padding-top: 64px;
+        padding-bottom: 32px;
+    }
+
+    .categories-wrap {
+        justify-content: center;
+    }
+
+    .categories-item {
+        width: 100%;
+        height: 247px;
+        margin-bottom: 32px;
+    }
+
+    .categories-item--acc {
+        height: 111px;
+        margin-top: 0;
     }
 }
 
@@ -563,6 +625,24 @@ details::-webkit-details-marker {
     .center {
         padding-top: 32px;
     }
+
+    .product-card {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 760px) {
+    .text-heading-feature-products {
+        padding-bottom: 34px;
+    }
+
+    .product-card {
+        margin-top: 15px;
+    }
+
+    .center {
+        padding-top: 40px;
+    }
 }
 
 /*pagination*/
@@ -652,6 +732,17 @@ details::-webkit-details-marker {
 
     .advantage-card {
         margin-top: 48px;
+    }
+}
+
+@media (max-width: 760px) {
+    .advantages {
+        margin-top: 96px;
+    }
+
+    .advantages-wrap {
+        padding: 0;
+        padding-bottom: 81px;
     }
 }
 
@@ -771,6 +862,21 @@ details::-webkit-details-marker {
     }
 }
 
+@media (max-width: 760px) {
+    .text-feedback {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .subscribe-form {
+        line-height: 153%;
+    }
+
+    .heading-mini-subscribe {
+        margin-top: 0;
+    }
+}
+
 /* foorer */
 
 .footer {
@@ -800,4 +906,16 @@ details::-webkit-details-marker {
 
 .icon-img:hover .icon-symbol {
     fill: #ffffff;
+}
+
+@media (max-width: 760px) {
+    .footer-wrap {
+        flex-flow: wrap-reverse;
+        justify-content: center;
+        padding: 43px 0 9px 0;
+    }
+
+    .copy {
+        margin-top: 40px;
+    }
 }
