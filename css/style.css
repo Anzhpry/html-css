@@ -1004,6 +1004,39 @@ img.shopping-img {
   margin-bottom: 128px;
 }
 
+@media (max-width: 1200px) {
+  .about {
+    border: 1px solid #eaeaea;
+    margin-bottom: 128px;
+  }
+  .about-wrap {
+    margin-bottom: 0;
+    margin-top: 0;
+    border: none;
+  }
+}
+
+@media (max-width: 760px) {
+  img.slider-img {
+    width: 100%;
+  }
+  .about {
+    margin-bottom: 64px;
+  }
+  .about-text {
+    line-height: 143.1%;
+    width: 90%;
+  }
+  .line-about {
+    width: 175px;
+    margin-top: 31px;
+    margin-bottom: 48px;
+  }
+  .product-wrap {
+    margin-bottom: 64px;
+  }
+}
+
 /* categories */
 .categories {
   padding-top: 65px;
