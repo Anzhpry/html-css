@@ -57,6 +57,13 @@ body {
     margin-right: 41px;
 }
 
+.logo-svg:hover {
+    transition: 0.3s;
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
 .search-button,
 .main-menu-button {
     background-color: transparent;
@@ -120,6 +127,20 @@ body {
     border-left: 12px solid #f16d7f;
     padding-left: 16px;
     margin-right: 95px;
+    animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .offer-title--small {
@@ -255,11 +276,19 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    &:hover .categories-link {
+        transform: scale(1.4);
+    }
 }
 
 .categories-item--women {
     background-image: url(../img/women-categories.png);
     background-size: cover;
+}
+
+.categories-link {
+    text-decoration: none;
+    transition: 0.3s;
 }
 
 .categories-item--men {

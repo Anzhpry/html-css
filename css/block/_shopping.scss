@@ -289,6 +289,10 @@ img.shopping-img {
     background: #f16d7f;
     padding: 12px 42px;
     display: block;
+    transition: 0.3s;
+    &:hover {
+        transform: scale(1.1);
+    }
 }
 
 @media (max-width: 1200px) {

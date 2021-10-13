@@ -62,6 +62,16 @@ body {
   margin-right: 41px;
 }
 
+.logo-svg:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.logo-svg:hover:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 .search-button,
 .main-menu-button {
   background-color: transparent;
@@ -204,6 +214,34 @@ body {
   border-left: 12px solid #f16d7f;
   padding-left: 16px;
   margin-right: 95px;
+  -webkit-animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+          animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .offer-title--small {
@@ -640,6 +678,13 @@ img.shopping-img {
   background: #f16d7f;
   padding: 12px 42px;
   display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.shipping-checkout:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 @media (max-width: 1200px) {
@@ -777,6 +822,71 @@ img.shopping-img {
   color: #ffffff;
   padding: 16px 20px 17px 29px;
   margin-top: 39px;
+}
+
+.registration-btn:hover {
+  -webkit-animation: wobble-hor-bottom 0.8s both;
+          animation: wobble-hor-bottom 0.8s both;
+}
+
+@-webkit-keyframes wobble-hor-bottom {
+  0%,
+  100% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+  15% {
+    -webkit-transform: translateX(-30px) rotate(-6deg);
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    -webkit-transform: translateX(15px) rotate(6deg);
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15px) rotate(-3.6deg);
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    -webkit-transform: translateX(9px) rotate(2.4deg);
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    -webkit-transform: translateX(-6px) rotate(-1.2deg);
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+
+@keyframes wobble-hor-bottom {
+  0%,
+  100% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+  15% {
+    -webkit-transform: translateX(-30px) rotate(-6deg);
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    -webkit-transform: translateX(15px) rotate(6deg);
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15px) rotate(-3.6deg);
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    -webkit-transform: translateX(9px) rotate(2.4deg);
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    -webkit-transform: translateX(-6px) rotate(-1.2deg);
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
 }
 
 .registration-svg-btn {
@@ -1071,9 +1181,20 @@ img.shopping-img {
           justify-content: center;
 }
 
+.categories-item:hover .categories-link {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
+
 .categories-item--women {
   background-image: url(../img/women-categories.png);
   background-size: cover;
+}
+
+.categories-link {
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .categories-item--men {
