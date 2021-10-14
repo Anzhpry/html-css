@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 @charset "UTF-8";
 * {
   margin: 0;
@@ -64,12 +71,14 @@ body {
 
 .logo-svg:hover {
   -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
 .logo-svg:hover:hover {
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+          -ms-transform: scale(1.2);
+      transform: scale(1.2);
 }
 
 .search-button,
@@ -479,6 +488,7 @@ img.shopping-img {
   padding: 17px 40px;
   display: block;
   -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
   transition: 0.4s;
 }
 
@@ -610,6 +620,10 @@ img.shopping-img {
   color: #b1b1b1;
 }
 
+.shipping-input::-moz-placeholder {
+  color: #b1b1b1;
+}
+
 .shipping-input::placeholder {
   color: #b1b1b1;
 }
@@ -679,12 +693,14 @@ img.shopping-img {
   padding: 12px 42px;
   display: block;
   -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
 .shipping-checkout:hover {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+          -ms-transform: scale(1.1);
+      transform: scale(1.1);
 }
 
 @media (max-width: 1200px) {
@@ -778,6 +794,11 @@ img.shopping-img {
   color: #b1b1b1;
 }
 
+.registration-input::-moz-placeholder {
+  font-weight: 300;
+  color: #b1b1b1;
+}
+
 .registration-input::placeholder {
   font-weight: 300;
   color: #b1b1b1;
@@ -801,7 +822,8 @@ img.shopping-img {
 .box-radio-input {
   margin-right: 10px;
   -webkit-transform: scale(1.4);
-          transform: scale(1.4);
+          -ms-transform: scale(1.4);
+      transform: scale(1.4);
   vertical-align: sub;
 }
 
@@ -1088,6 +1110,7 @@ img.shopping-img {
   color: #f26376;
   background: #ffffff;
   -webkit-transition: 00.3s;
+  -o-transition: 00.3s;
   transition: 00.3s;
 }
 
@@ -1096,7 +1119,8 @@ img.shopping-img {
   border-color: white;
   background: #ff6a6a;
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+          -ms-transform: scale(1.2);
+      transform: scale(1.2);
 }
 
 .product-btn:hover .product-btn-svg {
@@ -1183,7 +1207,8 @@ img.shopping-img {
 
 .categories-item:hover .categories-link {
   -webkit-transform: scale(1.4);
-          transform: scale(1.4);
+          -ms-transform: scale(1.4);
+      transform: scale(1.4);
 }
 
 .categories-item--women {
@@ -1194,6 +1219,7 @@ img.shopping-img {
 .categories-link {
   text-decoration: none;
   -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -1396,7 +1422,8 @@ details::-webkit-details-marker {
 
 .filter-soft-box[open] .filter-soft-svg {
   -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+          -ms-transform: rotate(180deg);
+      transform: rotate(180deg);
 }
 
 .filter-sort-text {
@@ -1435,6 +1462,7 @@ details::-webkit-details-marker {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
       align-self: center;
 }
 
@@ -1545,13 +1573,15 @@ details::-webkit-details-marker {
   display: -ms-flexbox;
   display: flex;
   -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
   transition: 0.4s;
 }
 
 .card-btn:hover {
   background-color: #ffffff73;
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+          -ms-transform: scale(1.1);
+      transform: scale(1.1);
 }
 
 .card-btn:hover .overlay-text {
@@ -1637,6 +1667,7 @@ details::-webkit-details-marker {
   border: 1px solid #ff6a6a;
   padding: 14px 39px 15px;
   -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -1644,7 +1675,8 @@ details::-webkit-details-marker {
   color: #ffffff;
   background: #f16d7f;
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+          -ms-transform: scale(1.2);
+      transform: scale(1.2);
 }
 
 @media (max-width: 1200px) {
@@ -1909,6 +1941,13 @@ details::-webkit-details-marker {
   opacity: 0.67;
 }
 
+.subscribe-field::-moz-placeholder {
+  font-size: 14px;
+  line-height: 17px;
+  color: #222224;
+  opacity: 0.67;
+}
+
 .subscribe-field::placeholder {
   font-size: 14px;
   line-height: 17px;
@@ -2018,4 +2057,3 @@ details::-webkit-details-marker {
     margin-top: 40px;
   }
 }
-/*# sourceMappingURL=style.css.map */
